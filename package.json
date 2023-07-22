@@ -2,9 +2,9 @@
     "name": "sr-listings-app",
     "version": "1.0.0",
     "description": "Your project description",
-    "main": "server.js",
+    "main": "server/server.js",
     "scripts": {
-        "start": "node server.js",
+        "start": "node server/server.js",
         "heroku-postbuild": "cd client && npm install && npm run build && cd .."
       },      
     "keywords": [],
