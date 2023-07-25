@@ -9,7 +9,7 @@
     "lint:client": "cd client && npm run lint",
     "install:server": "cd server && npm install",
     "start:server": "cd server && npm start",
-    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "start": "concurrently 'npm run start:client' 'npm run start:server'",
     "build": "concurrently \"npm run build:client\" \"npm run install:server\""
   },
   "dependencies": {
